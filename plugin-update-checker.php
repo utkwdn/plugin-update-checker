@@ -29,6 +29,10 @@ function ghpu_get_plugin_update_configs() {
 			'directory' => 'plugin-update-checker',
 			'entryFile' => 'plugin-update-checker.php',
 		),
+		array(
+			'directory' => 'updateable-plugin',
+			'entryFile' => 'updateable-plugin.php',
+		),
 	);
 }
 
