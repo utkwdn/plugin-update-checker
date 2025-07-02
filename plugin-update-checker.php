@@ -3,7 +3,7 @@
  * Plugin Name:       Plugin Update Checker
  * Plugin URI:        https://github.com/utkwdn/plugin-update-checker
  * Description:       Checks for updates for GitHub-hosted plugins
- * Version:           1.0.1
+ * Version:           1.0.3
  * Author:            The University of Tennessee, Knoxville
  *
  * @package PluginUpdateChecker
@@ -68,7 +68,13 @@ function ghpu_check_for_github_plugin_updates( $transient ) {
 
 		// Check that zip file exists at expected location.
 		$zip_url   = "https://github.com/{$org}/{$plugin['directory']}/releases/download/v{$package_info->version}/{$plugin['directory']}.zip";
-		$zip_check = wp_remote_head( $zip_url );
+		$zip_check = wp_remote_head(
+			$zip_url,
+			array(
+				'redirection'      => 5,
+				'follow_redirects' => true,
+			)
+		);
 		if ( is_wp_error( $zip_check ) || wp_remote_retrieve_response_code( $zip_check ) !== 200 ) {
 			continue;
 		}
