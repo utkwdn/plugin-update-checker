@@ -30,8 +30,32 @@ function ghpu_get_plugin_update_configs() {
 			'entryFile' => 'plugin-update-checker.php',
 		),
 		array(
-			'directory' => 'updateable-plugin',
-			'entryFile' => 'updateable-plugin.php',
+			'directory' => 'a-to-z-plugin',
+			'entryFile' => 'a-to-z-plugin.php',
+		),
+		array(
+			'directory' => 'home-hero-plugin',
+			'entryFile' => 'home-hero-plugin.php',
+		),
+		array(
+			'directory' => 'degree-search-plugin',
+			'entryFile' => 'degree-search-plugin.php',
+		),
+		array(
+			'directory' => 'custom-search-template-plugin',
+			'entryFile' => 'custom-search-template.php',
+		),
+		array(
+			'directory' => 'vision-page-plugin',
+			'entryFile' => 'vision-page-plugin.php',
+		),
+		array(
+			'directory' => 'ut-alert-plugin',
+			'entryFile' => 'ut-alert.php',
+		),
+		array(
+			'directory' => 'dynamic-content-plugin',
+			'entryFile' => 'dynamic-content-plugin.php',
 		),
 	);
 }
