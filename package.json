@@ -1,4 +1,7 @@
 {
   "name": "plugin-update-checker",
-  "version": "1.0.3"
+  "version": "1.0.0",
+  "description": "Checks for updates for GitHub-hosted plugins",
+  "author": "The University of Tennessee, Knoxville",
+  "homepage": "https://github.com/utkwdn/plugin-update-checker"
 }

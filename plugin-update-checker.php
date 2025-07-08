@@ -3,7 +3,7 @@
  * Plugin Name:       Plugin Update Checker
  * Plugin URI:        https://github.com/utkwdn/plugin-update-checker
  * Description:       Checks for updates for GitHub-hosted plugins
- * Version:           1.0.3
+ * Version:           1.0.0
  * Author:            The University of Tennessee, Knoxville
  *
  * @package PluginUpdateChecker
