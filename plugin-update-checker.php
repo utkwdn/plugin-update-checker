@@ -43,7 +43,7 @@ function ghpu_get_plugin_update_configs() {
 		),
 		array(
 			'directory' => 'custom-search-template-plugin',
-			'entryFile' => 'custom-search-template.php',
+			'entryFile' => 'custom-search-template-plugin.php',
 		),
 		array(
 			'directory' => 'vision-page-plugin',
